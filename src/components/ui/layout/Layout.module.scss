@@ -1,0 +1,23 @@
+.layout{
+    @apply p-5;
+    header{
+        nav{
+            @apply flex items-center justify-center;
+            a {
+                @apply text-lime-400 font-semibold mx-4 transition-colors duration-300 ease-in-out;
+
+                &:hover{
+                    @apply border-dashed border border-transparent duration-500;
+                }
+            }
+        }
+    }
+    .heading{
+        @apply text-3xl font-semibold mb-5;
+    }
+}
+
+
+
+
+

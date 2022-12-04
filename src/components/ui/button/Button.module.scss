@@ -1,0 +1,6 @@
+.button{
+    @apply block bg-gray-600 border-[#688689] border-solid  uppercase px-6 py-5 w-10/12 mx-auto mt-5 transition-colors duration-500 ease-in-out;
+    &:hover{
+        @apply bg-slate-500
+    }
+}

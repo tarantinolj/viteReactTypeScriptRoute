@@ -1,0 +1,11 @@
+.item{
+    .image{
+        @apply border border-solid mb-4 w-full h-40 bg-cover bg-center bg-no-repeat;
+    }
+    >.heading{
+        @apply text-lg uppercase mb-2;
+    }
+    >.price{
+        @apply text-lg;
+    }
+}
